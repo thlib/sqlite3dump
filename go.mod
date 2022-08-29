@@ -1,4 +1,4 @@
-module github.com/schollz/sqlite3dump
+module github.com/thlib/sqlite3dump
 
 go 1.16
 

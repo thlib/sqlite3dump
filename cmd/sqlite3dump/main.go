@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/schollz/sqlite3dump"
+	"github.com/thlib/sqlite3dump"
 )
 
 func main() {

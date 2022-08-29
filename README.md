@@ -11,7 +11,7 @@ This is a Golang port of [Python's `sqlite3 .iterdump()`](https://github.com/pyt
 There is also a command-line tool that you can use.
 
 ```
-$ go get github.com/schollz/sqlite3dump/...
+$ go get github.com/thlib/sqlite3dump/...
 $ sqlite3dump database.db > database.sql
 ```
 
