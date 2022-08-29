@@ -15,6 +15,8 @@ $ go get github.com/schollz/sqlite3dump/...
 $ sqlite3dump database.db > database.sql
 ```
 
+Unlike the original repo, this will only dump the schema, not the rows.
+
 # License
 
 MIT 

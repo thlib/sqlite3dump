@@ -128,12 +128,12 @@ func (s3d *sqlite3dumper) dumpDB(db *sql.DB, out io.Writer) (err error) {
 			}
 		}
 
-		// Build the insert statement for each row of the current table
-		schema.Name = strings.Replace(schema.Name, `"`, `""`, -1)
-		err = s3d.writeInsStmtsForTableRows(out, db, schema.Name)
-		if err != nil {
-			return err
-		}
+		// // Build the insert statement for each row of the current table
+		// schema.Name = strings.Replace(schema.Name, `"`, `""`, -1)
+		// err = s3d.writeInsStmtsForTableRows(out, db, schema.Name)
+		// if err != nil {
+		// 	return err
+		// }
 	}
 
 	for _, schema := range otherSchemas {
